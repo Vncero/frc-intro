@@ -24,7 +24,7 @@ public class StandardAuto extends SequentialCommandGroup {
                 new WaitCommand(2)
             ),
 
-            new TurnAngle(drivetrain, -90),
+            new TurnAngle(drivetrain, -180),
 
                 new ParallelRaceGroup(
                     new DriveForward(drivetrain),
