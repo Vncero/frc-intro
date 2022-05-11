@@ -30,9 +30,7 @@ public class StandardAuto extends SequentialCommandGroup {
                 new ParallelRaceGroup(
                     new DriveForward(drivetrain),
                     new WaitCommand(2)
-                ),
-
-                new TurnAngle(drivetrain, -90)
+                )
             );
 
         addRequirements(drivetrain);
