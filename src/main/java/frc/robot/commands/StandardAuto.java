@@ -9,7 +9,7 @@ public class StandardAuto extends SequentialCommandGroup {
     // put subsystem definitions here
     Drivetrain drivetrain;
 
-    public StandardAuto(/*  put subsystems arguments here  */){
+    public StandardAuto(Drivetrain drivetrain){
 
         addCommands(
             new ParallelRaceGroup(

@@ -11,6 +11,7 @@ public class TurnAngle extends CommandBase {
     public TurnAngle(Drivetrain drivetrain, double angle) {
         this.drivetrain = drivetrain;
         target = angle;
+        addRequirements(drivetrain);
     }
 
     @Override
