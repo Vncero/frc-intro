@@ -1,6 +1,7 @@
 package frc.robot.commands;
 
 import edu.wpi.first.wpilibj2.command.CommandBase;
+import frc.robot.subsystems.intake.Intake;
 
 public class RunIntake extends CommandBase {
     
@@ -15,7 +16,7 @@ public class RunIntake extends CommandBase {
 
     @Override
     public void execute() {
-        intake.setPower(
+        intake.setPower( //trick to find sign of power
             intakePower / Math.abs(intakePower) > 0 ? intakePower : -intakePower
         );
     }
