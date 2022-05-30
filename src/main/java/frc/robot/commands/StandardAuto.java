@@ -4,6 +4,8 @@ import edu.wpi.first.wpilibj2.command.ParallelRaceGroup;
 import edu.wpi.first.wpilibj2.command.SequentialCommandGroup;
 import edu.wpi.first.wpilibj2.command.WaitCommand;
 import frc.robot.subsystems.drivetrain.Drivetrain;
+import frc.robot.subsystems.drivetrain.commands.DriveForward;
+import frc.robot.subsystems.drivetrain.commands.TurnAngle;
 
 public class StandardAuto extends SequentialCommandGroup {
     // put subsystem definitions here
