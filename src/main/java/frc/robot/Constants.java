@@ -26,5 +26,8 @@ public class Constants {
         public static final double kPSpeed = 5.9;
         public static final double kISpeed = 2.1;
         public static final double kDSpeed = 2.8;
+
+        public static final double kHighGoalAngle = 75.0;
+        public static final double kLowGoalAngle = 45.0;
     }
 }
